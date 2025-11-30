@@ -9,8 +9,8 @@ const nextConfig: NextConfig = {
     includePaths: ['./src/static/css'],
     silenceDeprecations: ['import'], // Silence @import deprecation warnings
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/site' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/site' : '',
+  basePath: process.env.GITHUB_PAGES ? '/site' : '',
+  assetPrefix: process.env.GITHUB_PAGES ? '/site' : '',
   trailingSlash: true,
 
   // Turbopack configuration

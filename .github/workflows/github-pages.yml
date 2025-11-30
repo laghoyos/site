@@ -62,6 +62,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          GITHUB_PAGES: true
           # Use environment variable for GA tracking ID
           NEXT_PUBLIC_GA_TRACKING_ID: ${{ vars.NEXT_PUBLIC_GA_TRACKING_ID }}
 
