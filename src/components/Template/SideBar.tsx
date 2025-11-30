@@ -33,9 +33,12 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Luis Angel. I am a geospatial and remote sensing engineer with applications to
-          to the civil and environmental engineering industries. I am a{' '}
-          <a href="https://www.washington.edu/">University of Washington (UW)</a>
+          Hi, I&apos;m Luis Angel. I am a geospatial and remote sensing engineer
+          with applications to to the civil and environmental engineering
+          industries. I am a{' '}
+          <a href="https://www.washington.edu/">
+            University of Washington (UW)
+          </a>
           alumnus.
         </p>
         <ul className="actions">
@@ -56,7 +59,8 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; Luis A&apos;Guerrero Hoyos<Link href="/">https://laghoyos.github.io/site/</Link>.
+          &copy; Luis A&apos;Guerrero Hoyos
+          <Link href="/">https://laghoyos.github.io/site/</Link>.
         </p>
       </section>
     </section>

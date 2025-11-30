@@ -22,28 +22,28 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Luis A Guerrero Hoyos",
-    template: "%s | Luis A Guerrero Hoyos",
+    default: 'Luis A Guerrero Hoyos',
+    template: '%s | Luis A Guerrero Hoyos',
   },
   description:
     "Luis A Guerrero Hoyos's personal website. Data scientist, machine learning engineer, and full-stack developer.",
   keywords: [
-    "Luis A Guerrero Hoyos",
+    'Luis A Guerrero Hoyos',
     'data scientist',
     'machine learning',
     'full-stack developer',
     'engineer',
     'portfolio',
   ],
-  authors: [{ name: "Luis A Guerrero Hoyos" }],
-  creator: "Luis A Guerrero Hoyos",
+  authors: [{ name: 'Luis A Guerrero Hoyos' }],
+  creator: 'Luis A Guerrero Hoyos',
   metadataBase: new URL('https://laghoyos.github.io/site/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://laghoyos.github.io/site/',
-    siteName: "Luis A Guerrero Hoyos",
-    title: "Luis A Guerrero Hoyos",
+    siteName: 'Luis A Guerrero Hoyos',
+    title: 'Luis A Guerrero Hoyos',
     description:
       'Data scientist, machine learning engineer, and full-stack developer.',
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Luis A Guerrero Hoyos",
+        alt: 'Luis A Guerrero Hoyos',
       },
     ],
   },
