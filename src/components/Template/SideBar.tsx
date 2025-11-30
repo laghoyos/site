@@ -13,19 +13,19 @@ const SideBar: React.FC = () => {
   return (
     <section id="sidebar">
       <section id="intro">
-        <Link href="/" className="logo">
+        <Link href="/about" className="logo">
           <Image
             src="/images/me.jpg"
-            alt="Michael D'Angelo"
+            alt="Luis A Guerrero Hoyos"
             width={200}
             height={200}
             priority
           />
         </Link>
         <header>
-          <h2>Michael D&apos;Angelo</h2>
+          <h2>Luis A&apos;Guerrero Hoyos</h2>
           <p>
-            <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+            <a href="mailto:laghoyos@gmail.com">laghoyos@gmail.com</a>
           </p>
         </header>
       </section>
@@ -33,13 +33,10 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Michael. I am a{' '}
-          <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-          alumnus, and the co-founder and CTO of{' '}
-          <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I was VP of
-          Engineering at <a href="https://usesmileid.com">SmileID</a>,
-          co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-          co-founded <a href="https://matroid.com">Matroid</a>.
+          Hi, I&apos;m Luis Angel. I am a geospatial and remote sensing engineer with applications to
+          to the civil and environmental engineering industries. I am a{' '}
+          <a href="https://www.washington.edu/">University of Washington (UW)</a>
+          alumnus.
         </p>
         <ul className="actions">
           <li>
@@ -59,7 +56,7 @@ const SideBar: React.FC = () => {
       <section id="footer">
         <ContactIcons />
         <p className="copyright">
-          &copy; Michael D&apos;Angelo <Link href="/">mldangelo.com</Link>.
+          &copy; Luis A&apos;Guerrero Hoyos<Link href="/">https://laghoyos.github.io/site/</Link>.
         </p>
       </section>
     </section>
