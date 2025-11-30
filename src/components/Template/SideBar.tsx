@@ -15,7 +15,7 @@ const SideBar: React.FC = () => {
       <section id="intro">
         <Link href="/about" className="logo">
           <Image
-            src="/images/me.png"
+            src="/public/images/me.png"
             alt="Luis A Guerrero Hoyos"
             width={200}
             height={200}
